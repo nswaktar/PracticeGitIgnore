@@ -1,8 +1,8 @@
  # Ignore build and output folders
- /out/
+ /out/*
  *.class
  # Ignore IntelliJ IDEA files
- .idea/
+ .idea/*
  *.iml
  # Ignore OS-specific files
  .DS_Store
@@ -13,3 +13,4 @@
  *.log
  *.tmp
  *.img
+/.idea/
