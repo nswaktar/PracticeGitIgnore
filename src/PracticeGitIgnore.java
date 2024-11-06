@@ -1,11 +1,10 @@
 import java.util.Scanner;
 public class PracticeGitIgnore {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the message: ");
-        String message1 = scanner.nextLine();
-        String message2 = scanner.nextLine();
-        System.out.println(message1.concat(message2));
-        scanner.close();
+
+        String name= Helper.getInput("Enter your name: ");
+        int age= Helper.getIntInput("Enter your age: ");
+        System.out.println("Hi Mr. "+name+" your age is "+age);
+        Helper.closeScanner();
     }
 }
